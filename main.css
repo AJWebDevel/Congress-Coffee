@@ -1,0 +1,24 @@
+.pageHeader {
+    justify-content: center;
+    text-align: center;
+    font-family: American Typewriter, serif;
+}
+
+.list {
+    font-family: American Typewriter, serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 15%;
+    flex-wrap: wrap;
+    column-count: 3;
+    column-width: 200em;
+}
+
+.shop {
+
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    text-align: left;
+    border: 2px dotted black;
+    margin: 1px 1px 1px 1px
+}
